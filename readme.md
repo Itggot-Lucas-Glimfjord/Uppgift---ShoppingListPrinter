@@ -4,20 +4,20 @@ Den här uppgiften går ut på att skriva en funktion som formaterar en inköpsl
 
 ## Bedömningsmatris ##
 
-## Planering ##
+### Planering ###
 
 | Förmågor                         | E 																																   | C | A |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---|---|
 | Aktivitetsdiagram och pseudokod  | Du använder pseudokod och/eller aktivitetsdiagram för att planera dina uppgifter utifrån exempel, eller i samråd med utbildaren.  | Som för E, men utan exempel eller handledning |   |
 
-## Syntax och Teori ##
+### Syntax och Teori ###
 | Förmågor                                       | E 																			| C | A |
 |------------------------------------------------|------------------------------------------------------------------------------|---|---|
 | Grundläggande syntax		                     | Du kan redogöra för och använda programmeringsspråkets grundläggande syntax  |   |   |
 | Villkor och IF-satser		                     | Du kan redogöra för och använda villkor och IF-satser                        |   |   |
 | Loopar & iteration                             | Du kan redogöra för och använda loopar och iterera över listor               |   |   |
 
-## Kodning och kodningsstil ##
+### Kodning och kodningsstil ###
 
 | Förmågor                                      | E                                                                         | C                                               | A                                              |
 |-----------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
@@ -26,7 +26,7 @@ Den här uppgiften går ut på att skriva en funktion som formaterar en inköpsl
 | Struktur		 				                | Du skriver kod som är delvis strukturerad, har en konsekvent kodningsstil och tydlig namngivning | Som för E, men du skriver kod som är helt strukturerad |   			   |
 | Felsökning                                    | Du felsöker på egen hand enkla syntaxfel | Som för E, men systematiskt, och dessutom även körtidsfel och programmeringslogiska fel | Som för C, men med effektivitet   	   |
 
-## Datastrukturer ##
+### Datastrukturer ###
 
 | Förmågor        | E 														   | C 																     | A 									 |
 |-----------------|------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------|
@@ -67,7 +67,7 @@ Du skall skriva en funktion: `format_shopping_list` som tar en lista med produkt
 
     items = ["toaster"]
     format_shopping_list(products=items)
-    #=> "1 item:\n1: Toaster" #observera singular av 'item'
+    >>> "1 item:\n1: Toaster" #observera singular av 'item'
 
 
 ## Genomförande ##
